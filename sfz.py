@@ -15,11 +15,11 @@ im = Image.open(front_file)
 draw = ImageDraw.Draw(im)
 draw.text((100,715), u"仅供"+sys.argv[1].decode('utf-8')+u"使用——", (255, 255, 255), font=font)
 
-im.save('~/upload_front.jpg')
+im.save(os.path.expanduser('~')+'/upload_front.jpg')
 
 im = Image.open(back_file)
 draw = ImageDraw.Draw(im)
 draw.text((130,715), u"仅供"+sys.argv[1].decode('utf-8')+u"使用——", (255, 255, 255), font=font)
 
-im.save('~/upload_back.jpg')
+im.save(os.path.expanduser('~')+'/upload_back.jpg')
 
