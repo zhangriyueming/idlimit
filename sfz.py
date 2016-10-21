@@ -6,8 +6,8 @@ from PIL import ImageFont, Image, ImageDraw
 import sys
 import os
 
-front_file = os.path.expanduser('~')+"/projects/idlimit/sfz_front.jpg"
-back_file = os.path.expanduser('~')+"/projects/idlimit/sfz_back.jpg"
+front_file = os.path.expanduser('~/projects/idlimit/sfz_front.jpg')
+back_file = os.path.expanduser('~/projects/idlimit/sfz_back.jpg')
 
 font = ImageFont.truetype('/Library/Fonts/Songti.ttc', 40)
 
